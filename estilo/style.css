@@ -29,4 +29,6 @@ button {
    display: block;
    margin: 30px auto;
    position: relative;
+   transform-origin:center ;
+   cursor:pointer;
 }
