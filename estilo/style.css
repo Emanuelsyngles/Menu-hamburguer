@@ -38,6 +38,7 @@ button {
 button.ativar .linha:nth-child(1) {
     transform: translateY(36px) rotate(-45deg);
     background-color: cornflowerblue;
+    border: 1px solid black;
     transition: .5s
 }
 
@@ -48,5 +49,10 @@ button.ativar .linha:nth-child(2) {
 button.ativar .linha:nth-child(3) {
     transform: translateY(-36px) rotate(45deg);
     background-color: cornflowerblue;
+    border: 1px solid black;
     transition: .5s;
+}
+
+button.ativar {
+    background-color: rgb(110, 110, 110);
 }

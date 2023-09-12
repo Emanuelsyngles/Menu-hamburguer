@@ -1,4 +1,4 @@
 function animar() {
-    const button = document.getElementById('btn-menu')
-    button.classList.toggle('ativar')
+    const btn = document.getElementById('btn-menu')
+    btn.classList.toggle('ativar')
 }
