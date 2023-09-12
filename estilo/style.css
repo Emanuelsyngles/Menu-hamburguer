@@ -32,14 +32,21 @@ button {
    position: relative;
    transform-origin:center ;
    cursor:pointer;
+   transition: .5s;
 }
 
 button.ativar .linha:nth-child(1) {
     transform: translateY(36px) rotate(-45deg);
     background-color: cornflowerblue;
+    transition: .5s
 }
 
+button.ativar .linha:nth-child(2) {
+    opacity: 0;
+} 
+
 button.ativar .linha:nth-child(3) {
-    transform: translateY(36px) rotate(45deg);
+    transform: translateY(-36px) rotate(45deg);
     background-color: cornflowerblue;
+    transition: .5s;
 }
