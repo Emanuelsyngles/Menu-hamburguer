@@ -23,5 +23,9 @@ button {
 }
 
 .linha {
-    
+   width: 200px;
+   height: 10px; 
+   background-color: #000000;
+   display: block;
+   margin: 30px auto;
 }
